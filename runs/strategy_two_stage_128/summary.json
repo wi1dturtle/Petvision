@@ -1,0 +1,30 @@
+{
+ "best_val_miou": 0.8651046150101979,
+ "best_epoch": 2,
+ "total_train_time_s": 605.5718834400177,
+ "config": {
+  "data_root": "data",
+  "strategy": "two_stage",
+  "encoder": "tu-mobilenetv3_large_100",
+  "arch": "unet",
+  "size": 128,
+  "epochs": 6,
+  "batch_size": 16,
+  "lr": 0.001,
+  "wd": 0.0001,
+  "loss": "bce_dice",
+  "no_aug": false,
+  "max_train": 0,
+  "threads": 0,
+  "seed": 42,
+  "out": "runs/strategy_two_stage_128",
+  "strategy_cfg": {
+   "pretrained": true,
+   "freeze": false,
+   "encoder_lr_mult": 0.1,
+   "warmup_epochs": 2
+  },
+  "params_total": 4534553,
+  "device": "cpu"
+ }
+}

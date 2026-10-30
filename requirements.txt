@@ -1,0 +1,22 @@
+# Tested with Python 3.13 (3.10+ should work).
+# CPU-only PyTorch:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.3
+torchvision>=0.18
+segmentation-models-pytorch>=0.5
+timm>=1.0
+numpy>=1.26
+pillow>=10.0
+pandas>=2.0
+matplotlib>=3.8
+tqdm>=4.66
+# optimization / deployment
+onnx>=1.16
+onnxscript>=0.1
+onnxruntime>=1.18
+# API + demo
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+gradio>=4.40
+# tests
+pytest>=8.0

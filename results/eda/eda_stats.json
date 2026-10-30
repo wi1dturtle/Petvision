@@ -1,0 +1,40 @@
+{
+ "images_on_disk": 7390,
+ "images_with_split_labels": 7349,
+ "split_sizes": {
+  "test": 3669,
+  "train": 3311,
+  "val": 369
+ },
+ "species_counts": {
+  "dog": 4978,
+  "cat": 2371
+ },
+ "n_breeds": 37,
+ "images_per_breed_min_max": [
+  184,
+  200
+ ],
+ "image_modes": {
+  "RGB": 7346,
+  "RGBA": 3
+ },
+ "width_median": 500.0,
+ "height_median": 375.0,
+ "width_min_max": [
+  114,
+  3264
+ ],
+ "height_min_max": [
+  103,
+  2606
+ ],
+ "aspect_ratio_median": 1.3333333333333333,
+ "fg_frac_mean": 0.4182072392671745,
+ "fg_frac_p5_p95": [
+  0.14477577793594307,
+  0.7392082145976293
+ ],
+ "boundary_frac_mean": 0.11844038733483324,
+ "boundary_share_of_foreground": 0.28320979699532844
+}

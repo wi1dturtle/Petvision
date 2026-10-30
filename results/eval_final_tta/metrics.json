@@ -1,0 +1,20 @@
+{
+ "miou": 0.9018292816251885,
+ "mdice": 0.9454109040266697,
+ "pixel_acc": 0.9605248127636263,
+ "micro_iou": 0.9055083249887784,
+ "n": 3669,
+ "miou_ignore_boundary": 0.9311872183024626,
+ "model_time_per_img_ms": 25.61754663259643,
+ "miou_cat": 0.900401069761863,
+ "mdice_cat": 0.9434857487147461,
+ "miou_dog": 0.902508917439474,
+ "mdice_dog": 0.9463270177571628,
+ "frac_images_iou_below_0.8": 0.06704824202780049,
+ "frac_images_iou_below_0.5": 0.00681384573453257,
+ "mean_err_share_in_boundary_band": 0.7032727440382185,
+ "model": "weights/petvision_unet_mnv3.pt",
+ "split": "test",
+ "tta": true,
+ "input_size": 160
+}

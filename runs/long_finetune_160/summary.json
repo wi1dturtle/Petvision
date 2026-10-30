@@ -1,0 +1,30 @@
+{
+ "best_val_miou": 0.8922706138529117,
+ "best_epoch": 13,
+ "total_train_time_s": 2525.77268075943,
+ "config": {
+  "data_root": "data",
+  "strategy": "finetune",
+  "encoder": "tu-mobilenetv3_large_100",
+  "arch": "unet",
+  "size": 160,
+  "epochs": 15,
+  "batch_size": 16,
+  "lr": 0.001,
+  "wd": 0.0001,
+  "loss": "bce_dice",
+  "no_aug": false,
+  "max_train": 0,
+  "threads": 0,
+  "seed": 42,
+  "out": "runs/long_finetune_160",
+  "strategy_cfg": {
+   "pretrained": true,
+   "freeze": false,
+   "encoder_lr_mult": 1.0,
+   "warmup_epochs": 0
+  },
+  "params_total": 4534553,
+  "device": "cpu"
+ }
+}

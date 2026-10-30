@@ -1,0 +1,53 @@
+[
+ {
+  "variant": "pytorch_fp32",
+  "file": "weights/petvision_unet_mnv3.pt",
+  "size_mb": 17.507433891296387,
+  "latency_ms_mean_1t": 30.91334543987614,
+  "latency_ms_p50_1t": 27.763180500187445,
+  "latency_ms_p95_1t": 49.092584600657574,
+  "throughput_img_s_1t": 32.34848851752121,
+  "latency_ms_mean_2t": 26.65400135996606,
+  "latency_ms_p50_2t": 23.550199500277813,
+  "latency_ms_p95_2t": 45.691018850084205,
+  "throughput_img_s_2t": 37.517819050688054,
+  "test_miou": 0.9029715010726839,
+  "test_mdice": 0.9468986147214407,
+  "test_pixel_acc": 0.9605250502860435,
+  "n_eval": 1000
+ },
+ {
+  "variant": "onnx_fp32",
+  "file": "weights/petvision_unet_mnv3_fp32.onnx",
+  "size_mb": 17.303598403930664,
+  "latency_ms_mean_1t": 13.669392980045814,
+  "latency_ms_p50_1t": 13.096271500216972,
+  "latency_ms_p95_1t": 16.968681450453005,
+  "throughput_img_s_1t": 73.1561380567353,
+  "latency_ms_mean_2t": 9.319475619886362,
+  "latency_ms_p50_2t": 8.811378499558487,
+  "latency_ms_p95_2t": 11.11712264982998,
+  "throughput_img_s_2t": 107.30217458438865,
+  "test_miou": 0.9029715820897998,
+  "test_mdice": 0.9468986603255726,
+  "test_pixel_acc": 0.9605250831878075,
+  "n_eval": 1000
+ },
+ {
+  "variant": "onnx_int8",
+  "file": "weights/petvision_unet_mnv3_int8.onnx",
+  "size_mb": 4.813687324523926,
+  "latency_ms_mean_1t": 10.227232739962346,
+  "latency_ms_p50_1t": 9.963845499441959,
+  "latency_ms_p95_1t": 11.582728449320712,
+  "throughput_img_s_1t": 97.77816007770659,
+  "latency_ms_mean_2t": 9.572914480049803,
+  "latency_ms_p50_2t": 9.80374549908447,
+  "latency_ms_p95_2t": 10.469337849917792,
+  "throughput_img_s_2t": 104.46139491625307,
+  "test_miou": 0.8897182419467684,
+  "test_mdice": 0.9384415786015136,
+  "test_pixel_acc": 0.9547105608452111,
+  "n_eval": 1000
+ }
+]
